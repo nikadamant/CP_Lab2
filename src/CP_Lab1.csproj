@@ -1,10 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackAsTool>true</PackAsTool>
+		<ToolCommandName>taskcli</ToolCommandName>
+		<PackageId>EduPlan.TaskCLI.App</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+		<Authors>Borysiv Nikita</Authors>
+		<Description>Task Manager</Description>
+		<InternalsVisibleTo>CP_Lab1.Tests</InternalsVisibleTo>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
 
 </Project>
